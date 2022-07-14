@@ -37,6 +37,7 @@ snap install netbeans --classic
 snap install gradle --classic
 # Random apps
 apt install torbrowser-lanucher gnome-tweaks vim emacs htop neofetch steam gimp codeblocks -y
+snap install bitwarden
 #Emacs setup
 rm ~/.emacs
 sudo -u $SUDO_USER git clone https://github.com/coolcoder93/CoolCoderEmacsSetup.git
@@ -45,7 +46,6 @@ mv init.el ~/.emacs.d/
 cd .. && rm -rf CoolCoderEmacsSetup
 touch ~/.emacs.d/custom.el
 sudo -u $SUDO_USER systemctl --user enable --now emacs
-
 echo "alias emacs=\"emacsclient -c -a \'emacs\'\" " >> ~/.bashrc
 echo "alias emacsterm=\"emacsclient -nw\"" >> ~/.bashrc
 echo 'export PATH=\"/usr/include:$PATH\"' >> ~/.bashrc
