@@ -40,9 +40,11 @@ snap install gradle --classic
 apt install torbrowser-lanucher gnome-tweaks vim emacs htop neofetch steam gimp codeblocks -y
 
 #Emacs setup
+rm ~/.emacs
 sudo -u $SUDO_USER git clone https://github.com/coolcoder93/CoolCoderEmacsSetup.git
+cd CoolCoderEmacsSetup
 mv init.el ~/.emacs.d/
-rm README.md
+cd .. && rm -rf CoolCoderEmacsSetup
 touch ~/.emacs.d/custom.el
 sudo -u $SUDO_USER systemctl --user enable --now emacs
 
