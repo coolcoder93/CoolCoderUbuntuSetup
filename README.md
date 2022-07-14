@@ -1,2 +1,2 @@
 # CoolCoderUbuntuSetup
-Personal ubuntu setup
+Personal ubuntu setup (run as root)
