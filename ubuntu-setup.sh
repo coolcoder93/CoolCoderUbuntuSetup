@@ -31,14 +31,12 @@ gem install solargraph bundler rails
 apt install php php-curl php-pear php-gd php-dev php-zip php-mbstring php-mysql php-xml composer -y
 sudo -u $SUDO_USER composer global require laravel/installer
 echo 'export PATH=\"~/.composer/vendor/bin:$PATH\"'
-
 # Java
 apt install default-jdk openjdk-17-jdk ant maven maven-cache-cleanup -y
 snap install netbeans --classic
 snap install gradle --classic
 # Random apps
 apt install torbrowser-lanucher gnome-tweaks vim emacs htop neofetch steam gimp codeblocks -y
-
 #Emacs setup
 rm ~/.emacs
 sudo -u $SUDO_USER git clone https://github.com/coolcoder93/CoolCoderEmacsSetup.git
@@ -51,10 +49,8 @@ sudo -u $SUDO_USER systemctl --user enable --now emacs
 echo "alias emacs=\"emacsclient -c -a \'emacs\'\" " >> ~/.bashrc
 echo "alias emacsterm=\"emacsclient -nw\"" >> ~/.bashrc
 echo 'export PATH=\"/usr/include:$PATH\"' >> ~/.bashrc
-
 # TLP
 apt install tlp tlp-rdw -y
 systemctl enable --now tlp
-
 # Remove unused programs
 snap remove snap-store 
