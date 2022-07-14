@@ -1,0 +1,2 @@
+# CoolCoderUbuntuSetup
+Personal ubuntu setup
