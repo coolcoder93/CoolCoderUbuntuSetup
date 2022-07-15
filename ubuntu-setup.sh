@@ -48,6 +48,7 @@ repository="https://github.com/coolcoder93/CoolCoderEmacsSetup.git"
 sudo -u $SUDO_USER  git clone $repository
 cd CoolCoderEmacsSetup
 mv init.el /home/$SUDO_USER/.emacs.d/
+sudo -u $SUDO_USER touch /home/$SUDO_USER/.emacs.d/custom.el
 cd .. && rm -rf CoolCoderEmacsSetup
 systemctl --machine=$SUDO_USER@.host --user enable --now emacs
 echo "alias emacs=\"emacsclient -c -a 'emacs'\" " >> /home/$SUDO_USER/.bashrc
