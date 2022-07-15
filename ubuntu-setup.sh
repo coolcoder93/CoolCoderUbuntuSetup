@@ -39,7 +39,7 @@ apt install default-jdk openjdk-17-jdk openjfx libopenjfx-java ant maven maven-c
 snap install netbeans --classic
 snap install gradle --classic
 # Random apps
-apt install torbrowser-launcher gnome-tweaks vim emacs htop neofetch steam gimp codeblocks vlc -y
+apt install torbrowser-launcher gnome-tweaks vim emacs htop neofetch steam gimp codeblocks vlc caffeine -y
 snap install bitwarden
 #Emacs setup
 rm /home/$SUDO_USER/.emacs
