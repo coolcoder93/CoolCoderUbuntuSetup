@@ -43,7 +43,7 @@ apt install torbrowser-launcher gnome-tweaks vim emacs htop neofetch steam gimp 
 snap install bitwarden
 #Emacs setup
 rm /home/$SUDO_USER/.emacs
-mkdir /home/$SUDO_USER/.emacs.d/
+sudo -u $SUDO_USER mkdir /home/$SUDO_USER/.emacs.d/
 repository="https://github.com/coolcoder93/CoolCoderEmacsSetup.git"
 sudo -u $SUDO_USER  git clone $repository
 cd CoolCoderEmacsSetup
