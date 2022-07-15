@@ -28,7 +28,7 @@ npm i --location=global bash-language-server
 npm i --location=global live-server
 sudo -u $SUDO_USER pip install 'python-lsp-server[all]'
 # Ruby
-apt install ruby ruby-devel sqlite3 libsqlite3-dev -y
+apt install ruby ruby-dev sqlite3 libsqlite3-dev -y
 gem install solargraph bundler rails
 # PHP/Laravel
 apt install php php-curl php-pear php-gd php-dev php-zip php-mbstring php-mysql php-xml composer -y
@@ -57,4 +57,4 @@ apt install tlp tlp-rdw -y
 systemctl enable --now tlp
 # Remove unused programs
 snap remove snap-store 
-apt autoremove
+apt autoremove -y
