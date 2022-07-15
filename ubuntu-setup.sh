@@ -35,7 +35,7 @@ apt install php php-curl php-pear php-gd php-dev php-zip php-mbstring php-mysql 
 sudo -u $SUDO_USER composer global require laravel/installer
 echo 'export PATH="~/.config/composer/vendor/bin:$PATH"' >> /home/$SUDO_USER/.bashrc
 # Java
-apt install default-jdk openjdk-17-jdk ant maven maven-cache-cleanup -y
+apt install default-jdk openjdk-17-jdk openjfx libopenjfx-java ant maven maven-cache-cleanup -y
 snap install netbeans --classic
 snap install gradle --classic
 # Random apps
