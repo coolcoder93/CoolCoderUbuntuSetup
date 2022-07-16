@@ -8,7 +8,7 @@ apt install libsdl2-2.0-0 libsdl2-dev libsdl2-gfx-dev libsdl2-image-dev libsdl2-
 # GLFW, GLEW, GLM
 apt install libglfw3-wayland libglfw3-dev libglew-dev libglm-dev -y
 # Python
-apt install python3-dev python3-pip python3-venv -y
+apt install python3-dev python3-pip python3-venv python3-tk -y
 sudo -u $SUDO_USER pip install django
 echo 'export PATH="/home/simon/.local/bin:$PATH"' >> /home/$SUDO_USER/.bashrc
 # C/C++
