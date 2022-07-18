@@ -3,6 +3,7 @@
 cd
 apt update && apt upgrade -y
 snap refresh
+ufw enable
 # SDL2
 apt install libsdl2-2.0-0 libsdl2-dev libsdl2-gfx-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-net-dev libsdl2-ttf-dev -y
 # GLFW, GLEW, GLM
