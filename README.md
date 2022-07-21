@@ -1,4 +1,4 @@
 # CoolCoderUbuntuSetup
 Personal ubuntu setup
 
-Run: sudo bash 
+Run: sudo bash ubuntu-setup.sh
